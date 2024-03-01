@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(nett.jpg);
+  height: 100vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+}
+
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.8;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  max-width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  opacity: 10;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  padding: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  color: white;
+  font-weight: 600;
+}
+
+.button1 {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: white;
+  border: 2px solid white;
+}
+
+.button2 {
+  background-color: red;
+}
+
+.button2:hover {
+  border: 2px solid white;
+}
+
+.hero {
+  height: calc(100% - 62px);
+  color: white;
+  position: relative;
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 50%;
+  font-family: "Martel Sans";
+  font-weight: 900;
+}
+
+.hero .st {
+  font-size: 39px;
+}
+
+.hero .nd,
+.rd {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.email input {
+  padding: 15px;
+  width: 400px;
+  background-color: rgb(28, 27, 27);
+  color: #ffffff;
+  font-weight: 700;
+  border: 2px solid rgb(130, 130, 130);
+  border-radius: 4px;
+  backdrop-filter: blur(50px);
+  background: transparent;
+}
+
+.email input:hover {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+.email button {
+  padding: 15px;
+  background-color: red;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: white;
+  font-weight: 800;
+  transition: all 0.3s;
+}
+
+.email button:hover {
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: rgb(217, 2, 2);
+}
+
+hr {
+  border: 3px solid rgb(110, 110, 110);
+}
+
+.main1 {
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  text-align: left;
+  padding: 0.2323rem;
+  width: 40%;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 25px;
+}
+
+p {
+  font-size: 1.9rem;
+}
+
+.video1 {
+  position: relative;
+}
+
+.video1 img {
+  width: 470px;
+  position: relative;
+  z-index: 10;
+}
+
+.video1 video {
+  width: 340px;
+  position: absolute;
+  top: 63px;
+  right: 69px;
+
+}
+
+.hero4th video {
+  width: 295px;
+  right: 85px;
+  top: 30px;
+}
+
+.hero3rd img {
+  height: 50vh;
+}
+
+.footer {
+  height: 400px;
+  width: 90vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.f1,
+.f2,
+.f3 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.f1 a,
+.f2 a,
+.f3 a {
+  color: #ffffff;
+  font-size: 22px;
+}
